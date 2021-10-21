@@ -1,0 +1,110 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Gilroy-Medium";
+}
+
+@font-face {
+  font-family: "Gilroy-Medium";
+  font-style: normal;
+  font-weight: normal;
+  src: local("Gilroy-Medium"), url("Gilroy-Medium.woff") format("woff");
+}
+
+#container {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 80vh;
+  width: 80vw;
+  margin: 10vh 10vw;
+}
+
+h1 {
+  position: absolute;
+  width: 100%;
+  height: 32px;
+  font-size: 36px;
+  line-height: 42px;
+  color: #63b4fc;
+}
+
+p {
+  position: absolute;
+  top: 60px;
+  font-size: 14px;
+  line-height: 16px;
+  color: #a1a1a1;
+  font-weight: lighter;
+}
+
+#name-label {
+  position: absolute;
+  width: 100%;
+  height: 16px;
+  top: 220px;
+  left: 0;
+  font-size: 18px;
+  font-weight: bold;
+  color: #63b4fc;
+}
+
+#name {
+  position: absolute;
+  padding: 0 24px;
+  width: 100%;
+  height: 48px;
+  top: 246px;
+  left: 0;
+  border: 1px solid #e5e5e5;
+  box-sizing: border-box;
+  border-radius: 22px;
+}
+
+#mandatory {
+  color: #fe5e7b;
+  font-weight: lighter;
+}
+
+#phone-label {
+  position: absolute;
+  width: 100%;
+  height: 16px;
+  top: 320px;
+  left: 0;
+  font-size: 18px;
+  font-weight: bold;
+  line-height: 21px;
+  color: #63b4fc;
+}
+
+#phone {
+  position: absolute;
+  width: 100%;
+  height: 48px;
+  padding: 0 24px;
+  top: 346px;
+  left: 0;
+  border: 1px solid #e5e5e5;
+  box-sizing: border-box;
+  border-radius: 22px;
+}
+
+#next {
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translate(-50%, 0);
+  height: 40px;
+  width: 152px;
+  background: #63b4fc;
+  color: #fff;
+  border-radius: 22px;
+  font-size: 18px;
+  font-weight: bold;
+  box-shadow: 0px 0px 14px rgba(0, 0, 0, 0.1);
+  border: none;
+  outline: none;
+}
